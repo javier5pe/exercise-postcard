@@ -1,29 +1,31 @@
 body {
 	background: black;
+	font-family: "Handlee", cursive;
 }
-* {
-	/*border: 1px dashed red;
-	min-height: 10px;*/
-}
+
 .postcard {
-	background: white;
+	background-color: white;
 	width: 400px;
 	height: 300px;
 	margin: auto;
+	margin-top: 15%;
 }
 .postcard-header {
 	display: flex;
+	padding: 10px;
 }
 .postcard-header img {
 	width: 50px;
 	height: 50px;
 }
 .postcard-header h1 {
-	width: 350px;
+	width: 100%;
 	margin: 0;
+	align-self: center;
 }
 .postcard-body {
 	display: flex;
+	font-weight: 600;
 }
 .first-child {
 	margin-top: 0;
@@ -37,16 +39,23 @@ p {
 }
 input {
 	border: none;
-	border-bottom: 1px gray solid;
-	/*mi codigo*/
-	color: blueviolet;
+	border-bottom: 1px solid grey;
+	color: grey;
+	font-size: 14px;
+	font-family: "Handlee", cursive;
 }
 .postcard-footer {
 	text-align: center;
 }
 button {
-	background-color: burlywood;
-	padding: 1px;
+	margin-top: 5px;
+	box-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+	padding: 2px 3px 2px 3px;
+	background-color: darkgray;
+	font-family: "Handlee", cursive;
+	color: black;
+	font-weight: 600;
+	font-size: large;
 }
 /* mi codigo */
 .prueba {
